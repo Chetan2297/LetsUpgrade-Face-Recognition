@@ -1,14 +1,14 @@
 import cv2
 
 
-image1 = cv2.imread("C:\Program Files\Sublime Text 3\OPENCV PROJECT/background.jpg")
-image2 = cv2.imread("C:\Program Files\Sublime Text 3\OPENCV PROJECT/background1.jpg")
-image3 = cv2.imread("C:\Program Files\Sublime Text 3\OPENCV PROJECT/background2.jpg")
-image4 = cv2.imread("C:\Program Files\Sublime Text 3\OPENCV PROJECT/background3.jpg")
-image5 = cv2.imread("C:\Program Files\Sublime Text 3\OPENCV PROJECT/background4.jpg")
-image6 = cv2.imread("C:\Program Files\Sublime Text 3\OPENCV PROJECT/background5.jpg")
+image1 = cv2.imread("C:\Program Files\Sublime Text 3\PROJECT/background.jpg")
+image2 = cv2.imread("C:\Program Files\Sublime Text 3\PROJECT/background1.jpg")
+image3 = cv2.imread("C:\Program Files\Sublime Text 3\PROJECT/background2.jpg")
+image4 = cv2.imread("C:\Program Files\Sublime Text 3\PROJECT/background3.jpg")
+image5 = cv2.imread("C:\Program Files\Sublime Text 3\PROJECT/background4.jpg")
+image6 = cv2.imread("C:\Program Files\Sublime Text 3\PROJECT/background5.jpg")
 
-ch = int(input("Enter a choice : "))
+ch = int(input("Enter your choice : "))
 
 cap = cv2.VideoCapture(0)
 while cap.isOpened():
