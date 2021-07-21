@@ -1,1 +1,1 @@
-# LetsUpgrade-Face-Recognition-Assignment
+Face-Recognition-Assignment
