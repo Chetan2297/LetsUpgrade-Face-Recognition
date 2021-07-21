@@ -1,4 +1,5 @@
 
+
 import streamlit as st
 import cv2
 import numpy as np
@@ -15,10 +16,10 @@ model = mp_selfie_segmentation.SelfieSegmentation(model_selection=0)
 
 model_detection = mp_face_detection.FaceDetection()
 
-st.title("OpenCV Final Project")
+st.title("OpenCV - (Final Project)")
 
 add_selectbox = st.sidebar.selectbox(
-    "What operations you would like to perform?",
+    "Which type of operations you would like to perform?",
     ("About", "Face Recognition", "Face Detection", "Selfie Segmentation")
 )
 
